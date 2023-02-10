@@ -1,11 +1,11 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myapp
+  name: jane-app
 spec:
   selector:
     matchLabels:
-      app: jane-app
+      app: myapp
   replicas: 2
   template:
     metadata:
